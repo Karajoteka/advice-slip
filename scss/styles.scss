@@ -58,7 +58,7 @@ body {
 
     .button {
       position: absolute;
-      bottom: -30px;
+      bottom: -35px;
       left: 50%;
       transform: translateX(-50%);
       width: 70px;
@@ -73,6 +73,29 @@ body {
       img {
         width: 30px;
         height: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+
+    .container {
+      margin-top: 200px;
+      width: 40%;
+
+      .divider {
+        height: 40px;
+        background-image: url(../images/pattern-divider-desktop.svg);
+      }
+
+      .button {
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 1px 1px 30px $neon-green;
+        }
       }
     }
   }
