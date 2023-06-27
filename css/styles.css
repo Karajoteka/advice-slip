@@ -59,6 +59,10 @@ body .container .button {
   background-color: hsl(150, 100%, 66%);
   border-radius: 100%;
 }
+body .container .button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 30px hsl(150, 100%, 66%);
+}
 body .container .button img {
   width: 30px;
   height: 30px;
@@ -72,9 +76,5 @@ body .container .button img {
   body .container .divider {
     height: 40px;
     background-image: url(../images/pattern-divider-desktop.svg);
-  }
-  body .container .button:hover {
-    cursor: pointer;
-    box-shadow: 1px 1px 30px hsl(150, 100%, 66%);
   }
 }/*# sourceMappingURL=styles.css.map */

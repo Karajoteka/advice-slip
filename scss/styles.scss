@@ -17,7 +17,6 @@ html {
 
 body {
   font-family: $font-stack;
-  // height: 100vh;
   display: flex;
   justify-content: center;
   background-color: $dark-blue;
@@ -70,6 +69,11 @@ body {
       background-color: $neon-green;
       border-radius: 100%;
 
+      &:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 30px $neon-green;
+      }
+
       img {
         width: 30px;
         height: 30px;
@@ -88,14 +92,6 @@ body {
       .divider {
         height: 40px;
         background-image: url(../images/pattern-divider-desktop.svg);
-      }
-
-      .button {
-
-        &:hover {
-          cursor: pointer;
-          box-shadow: 1px 1px 30px $neon-green;
-        }
       }
     }
   }
